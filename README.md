@@ -1,4 +1,4 @@
-# Wine in varios meals
+# Wine in various meals
 
 Knowledge engineering and management project by
 
