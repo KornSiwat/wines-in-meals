@@ -1,4 +1,5 @@
 :- module(facts,[]).
+
 wine(maibec).
 wine(syrah).
 wine(mourvedre).
@@ -63,7 +64,6 @@ wine(madeira).
 wine(vin_santo).
 wine(muscat).
 wine(pedro_ximenez).
-
 wineType(bold_red).
 wineType(medium_red).
 wineType(light_red).
@@ -73,7 +73,6 @@ wineType(light_white).
 wineType(sparkling).
 wineType(sweet_white).
 wineType(dessert).
-
 hasMinorType(beef,red_meat).
 hasMinorType(lamb,red_meat).
 hasMinorType(salami,cured_meat).
@@ -163,7 +162,6 @@ hasMinorType(creme_brulee,vanilla_caramel).
 hasMinorType(ice_cream,vanilla_caramel).
 hasMinorType(chocolate,chocolate_coffee).
 hasMinorType(coffee,chocolate_coffee).
-
 hasMajorType(red_meat,meat).
 hasMajorType(cured_meat,meat).
 hasMajorType(pork,meat).
@@ -195,7 +193,6 @@ hasMajorType(potato,starch).
 hasMajorType(fruit_berries,sweet).
 hasMajorType(vanilla_caramel,sweet).
 hasMajorType(chocolate_coffee,sweet).
-
 IsWineType(maibec,bold_red).
 IsWineType(syrah,bold_red).
 IsWineType(mourvedre,bold_red).
