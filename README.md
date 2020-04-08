@@ -6,7 +6,7 @@ Knowledge engineering and management project by
 | ----------------------- | ---------- |
 | Siwat Ponpued           | 6110546640 |
 | Natthaphon Rakprakobkij |            |
-| Sidtipat Kietchai       |            |
+| Sidtipat Kietchai       | 6110546046 |
 
 ## Prerequisite
 
