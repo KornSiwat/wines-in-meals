@@ -5,8 +5,8 @@ Knowledge engineering and management project by
 | name                    | student id |
 | ----------------------- | ---------- |
 | Siwat Ponpued           | 6110546640 |
-| Natthaphon Rakprakobkij |            |
-| Sidtipat Kietchai       |            |
+| Natthaphon Rakprakobkij | 6110546402 |
+| Sidtipat Kietchai       | 6110546046 |
 
 ## Prerequisite
 
