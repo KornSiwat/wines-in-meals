@@ -1,5 +1,4 @@
 :- module(facts,[]).
-<<<<<<< HEAD
 wine(maibec).
 wine(syrah).
 wine(mourvedre).
@@ -196,7 +195,6 @@ hasMajorType(potato,starch).
 hasMajorType(fruit_berries,sweet).
 hasMajorType(vanilla_caramel,sweet).
 hasMajorType(chocolate_coffee,sweet).
-=======
 
 IsWineType(maibec,bold_red).
 IsWineType(syrah,bold_red).
@@ -374,4 +372,3 @@ compatible(white_starches,dessert).
 compatible(fruit_berries,dessert).
 compatible(vanilla_caramel,dessert).
 compatible(chocolate_coffee,dessert).
->>>>>>> 22025a38190649c51b304c4a30aa84a8627ed85e
