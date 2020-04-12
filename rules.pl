@@ -2,14 +2,17 @@
 
 wine_in_type(NAME, TYPE):-
   facts:wine(NAME),
+  facts:wineType(TYPE),
   facts:isWineType(NAME, TYPE).
 
 ingredient_in_minor_type(NAME, TYPE):-
   facts:ingredient(NAME),
+  facts:minorType(TYPE),
   facts:hasMinorType(NAME, TYPE).
 
 ingredient_in_major_type(NAME, TYPE):-
   facts:ingredient(NAME),
+  facts:majorType(TYPE),
   facts:hasMajorType(NAME, TYPE).
 
 ingredient_compatible_with_wine(INGREDIENT_NAME, WINE_NAME):-
@@ -21,5 +24,6 @@ ingredient_compatible_with_wine(INGREDIENT_NAME, WINE_NAME):-
 
 ingredient_compatible_with_wine_type(INGREDIENT_NAME, WINE_TYPE):-
   facts:ingredient(INGREDIENT_NAME),
+  facts:wineType(WINE_TYPE),
   facts:hasMinorType(INGREDIENT_NAME, INGREDIENT_TYPE),
   facts:compatible(INGREDIENT_TYPE, WINE_TYPE).
