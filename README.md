@@ -28,6 +28,7 @@ Knowledge engineering and management project by
 
 * wine_in_type(NAME, TYPE)
     * check if NAME is a wine of wine type: TYPE
+    * show name and type
     * find wine name of type: TYPE
     * find type of wine with name: NAME
 
