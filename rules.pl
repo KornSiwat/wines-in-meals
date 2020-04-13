@@ -1,3 +1,4 @@
+:- module(rules,[]).
 :- use_module(facts,[]).
 
 wine_in_type(NAME, TYPE):-
